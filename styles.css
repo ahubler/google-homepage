@@ -1,15 +1,24 @@
 body{
-  display: block;
+display: block;
 }
-div#logo{
+img{
   position: relative;
-  top: 0;
-  right: 200px;
-
+  top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
-input.searchbox{
-  float: left;
+input{
+  position: relative;
 }
-input.submit_search{
+#searchbox{
+  top: 80px;
+  margin-left: 200px;
+width: 400px;
+}
+#submit_search{
+  top: 120px;
   clear: both;
+}
+#lucky_search{
+  top: 120px;
 }
