@@ -1,20 +1,48 @@
 *{
 }
 body{
-  outline: 1px solid black;
-  width: 100%;
+  width: auto;
   height: 100%;
   margin:0;
   border:1px solid transparent;
 }
-#lg{
+.navbar{
+  outline: 1px solid black;
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li{
+  display:inline-block;
+  float:right;
+  margin: auto;
+  padding:20px 30px 5px 0px;
+  height: 20px;
+}
+.navbar li a{
+  font-family: arial,sans-serif;
+  text-decoration: none;
+  opacity: .75;
+}
+.navbar li a input{
+  border:3px solid #4285f4;;
+  border-radius: 5px;
+  background-color:#4285f4;;
+  color:white;
+  outline: 1px black;
+  fint-weight: bold;
+  height:25px
+}
+.image{
   margin: auto;
   text-align: center;
   height: 233px;
   margin-top: 89px;
   position: relative;
 }
-#logo{
+.image img{
   position: relative;
   height:92px;
   width: 272px;
@@ -22,24 +50,19 @@ body{
 }
 input{
   position: relative;
+  font-family: arial,sans-serif;
 }
-#navbar{
-  position:fixed;
-  background-color: gray;
-}
-#gmail{
-  position: relative;
-  float: right;
-}
-#searchbox{
+.inputs{
+  text-align: center;
   top: 80px;
-  margin-left: 200px;
-width: 400px;
+  margin: auto;
+  width: 450px;
 }
-#submit_search{
-  top: 120px;
-  clear: both;
+.search input[type="text"]{
+  width:450px;
 }
-#lucky_search{
-  top: 120px;
+.search input[type="submit"]{
+  margin-top:15px;
+  margin-left: 35px;
+  margin-right: 35px
 }
